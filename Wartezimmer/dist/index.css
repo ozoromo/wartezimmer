@@ -1,0 +1,12 @@
+#Header {
+    vertical-align: text-top;
+    align-content: center;
+    justify-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
