@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <head>
+  <link rel="stylesheet" href="index.css">
 </head>
 <html>
   <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-    }
 
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
   </style>
   <body>
     <div id="Header">
-      <h1>Dr. Lorenzos Artztpraxis</h1>
       <img src="artzt-stab.png" class="center">
+      <h1>Dr. Lorenzos Artztpraxis</h1>
       <h2>Setzen sie sich und tragen sie sich in die Liste ein.</h2>
     </div>
     <div id="Form">
       <input type="text" placeholder="Name" id="name_input">
-      <input type="button" id='sendname' value="Eintragen">
+      <input type="button" id='sendname' value="Eintragen" class="button">
     </div>
     <div id="output">
       <textarea name="Warteliste" id="waitlist" cols="30" rows="10" readonly></textarea>
-      <input type="button" id="deque" value="Patient hereinrufen">
+      <input type="button" id="deque" value="Patient hereinrufen" class="button">
     </div>
 
     <script type="text/javascript" src="index.js"></script>

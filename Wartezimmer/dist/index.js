@@ -10,7 +10,6 @@ call_patient_button.addEventListener('click', dequeue)
 name_field.addEventListener('keydown', (e) => {
     if (e.key === "Enter") {
         send_name();
-        name_field.value = "";
     }
 });
 
@@ -33,6 +32,7 @@ function send_name() {
             queue_push(name_field.value + "\n");
         }
     }
+    name_field.value = "";
     update_textfield();
 }
 
