@@ -1,3 +1,4 @@
 # Project exclude paths
 /Wartezimmer/node_modules/
 /Wartezimmer/src-tauri/target/
+/.idea/
